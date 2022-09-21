@@ -1,0 +1,96 @@
+{
+  "name": "Dualis Finance",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.17.2",
+    "@emailjs/browser": "^3.4.0",
+    "@ethersproject/abi": "^5.5.0",
+    "@popperjs/core": "^2.11.0",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/client": "^2.23.2",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@walletconnect/client": "^1.7.4",
+    "@walletconnect/qrcode-modal": "^1.7.4",
+    "@walletconnect/utils": "^1.7.4",
+    "@walletconnect/web3-provider": "^1.7.4",
+    "@web3auth/web3auth": "^0.5.1",
+    "assert": "2.0.0",
+    "axios": "^0.24.0",
+    "babel-loader": "^8.2.4",
+    "babel-runtime": "^6.26.0",
+    "bootstrap": "^5.1.3",
+    "core-js": "^3.21.1",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "3.1.9-1",
+    "emailjs": "^3.7.0",
+    "fs": "^0.0.2",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "https-browserify": "1.0.0",
+    "i": "^0.3.7",
+    "magic-sdk": "^8.1.0",
+    "moralis": "^1.3.5",
+    "npm": "^8.5.3",
+    "os": "0.1.2",
+    "os-browserify": "0.3.0",
+    "react": "^16.0.2",
+    "react-app-rewired": "2.1.9",
+    "react-bootstrap": "^2.1.1",
+    "react-burger-menu": "^3.0.6",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^17.0.2",
+    "react-grid-carousel": "^1.0.1",
+    "react-icons": "^4.3.1",
+    "react-native-svg": "^12.3.0",
+    "react-pro-sidebar": "^0.7.1",
+    "react-rating-stars-component": "^2.2.0",
+    "react-router-dom": "^6.2.1",
+    "react-script-tag": "^1.1.2",
+    "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "react-toastify": "^8.1.1",
+    "react-vertical-timeline-component": "^3.5.2",
+    "recharts": "^2.1.8",
+    "slick-carousel": "^1.8.1",
+    "stream": "^0.0.2",
+    "stream-browserify": "3.0.0",
+    "stream-http": "3.2.0",
+    "url": "^0.11.0",
+    "web-vitals": "^2.1.2",
+    "web3": "^1.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browser": {
+    "crypto": false
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "path-browserify": "^1.0.1"
+  }
+}
