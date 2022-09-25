@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaLock, FaGlobeAsia, FaStarOfLife, FaHandHoldingWater} from 'react-icons/fa'
+import {FaLock, FaChartLine, FaStarOfLife, FaHandHoldingWater} from 'react-icons/fa'
 
 export default function Keyfeatures() {
     return (
@@ -11,11 +11,11 @@ export default function Keyfeatures() {
                 </div>
                 <div className="col-md-3">
                     <FaHandHoldingWater id='featureIco'/>&nbsp;
-                    <p>Insurance in <br className='keyBreak' />DeFi</p>
+                    <p>Dual<br className='keyBreak' />Investment</p>
                 </div>
                 <div className="col-md-3">
-                    <FaGlobeAsia id='featureIco'/>&nbsp;
-                    <p>Community <br className='keyBreak' />Driven</p>
+                    <FaChartLine id='featureIco'/>&nbsp;
+                    <p>Annual Percentage Yield<br className='keyBreak' />30%</p>
                 </div>
                 <div className="col-md-3">
                     <FaStarOfLife id='featureIco'/>&nbsp;

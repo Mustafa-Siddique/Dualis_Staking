@@ -19,8 +19,8 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <hr className="mt-0"/>
-      <CarouselHome/>
+      {/* <hr className="mt-0"/>
+      <CarouselHome/> */}
       <hr />
       <About />
       <hr />
