@@ -23,9 +23,9 @@ export default function PageBoobyTrap() {
         <PlatformHead />
       <button id="pro-sidebar-burger" onClick={() => {setlg(!lg)}}><GiHamburgerMenu/></button>
         <div id="pagesafe-cont" style={{ borderTop: "1px solid #474747", maxWidth: "1150px", margin: "auto", position: "relative", color: "#fff" }} className="pt-5">
-          <h1>BOOBY TRAP</h1>
-          <h2>Shoutout against scammers &amp; fraudsters</h2>
-          <p className="fw-normal fs-6">
+          <h1>DUALIS FINANCE</h1>
+          <h2>Smart Staking</h2>
+          {/* <p className="fw-normal fs-6">
             0 Trap Points means the safest! lower trap points means safer! Read
             more about{" "}
             <Link
@@ -34,22 +34,10 @@ export default function PageBoobyTrap() {
             >
               trap points
             </Link>
-          </p>
+          </p> */}
           <div className="projectTable mt-5">
-            <ul className="nav nav-tabs">
-              <li className="nav-item">
-                <Link className={activeTab === 1 ? "nav-link active" : "nav-link"} aria-current="page" onClick={() => toggleActive(1)} to="/boobytrap">
-                  Projects
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className={activeTab === 2 ? "nav-link active" : "nav-link"} onClick={() => toggleActive(2)} to="/boobytrap">
-                  Project Owners
-                </Link>
-              </li>
-            </ul>
             <div className="container-fluid mt-2">
-              {activeTab === 1 ? <OngoingScam /> : <OwnerScam />}
+              <OngoingScam />
             </div>
           </div>
         </div>

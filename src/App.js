@@ -88,7 +88,7 @@ function App() {
             />
 
             {/* Routes for Dualis Finance */}
-            <Route path="boobytrap" element={<PageBoobyTrap />}/>
+            <Route path="staking" element={<PageBoobyTrap />}/>
             <Route
               path="boobytrap/scamprojects/:slug/:id"
               element={<Projectpage />}

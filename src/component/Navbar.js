@@ -25,7 +25,7 @@ export default function Navbar() {
                                 <a className="nav-link" href="#roadmap-cont">Roadmap</a>
                             </li>
                             <li className="nav-item">
-                                <a href="https://drive.google.com/uc?id=1PbT6ef7QUcQM6IA3yfFga9hdTDpf7hua" target="_blank" rel="noreferrer" className="nav-link">Trapsheet</a>
+                                <a href="../whitepaper/BBT _TrapSheet_V3.pdf" target="_blank" rel="noreferrer" className="nav-link">Litepapaer</a>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/docs">FAQs</Link>
@@ -36,7 +36,7 @@ export default function Navbar() {
                         </ul>
                         <a href="https://t.me/DUALISFINANCE" target="_blank" rel="noreferrer" className="nav-socials"><FaTelegramPlane/></a>
                         <a href="https://twitter.com/DUALISFINANCE" target="_blank" rel="noreferrer" className="nav-socials"><FaTwitter/></a>
-                        <Link to="/safehaven" className="btn btnOutline m-1">Platform</Link>
+                        <Link to="/staking" className="btn btnOutline m-1">Platform</Link>
 
                     </div>
                     <div className="mob-nav">

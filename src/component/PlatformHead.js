@@ -198,7 +198,7 @@ export default function PlatformHead() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x609b88f5a4aBB7A55bA0c6d255C3F1b1bC7A4D76"
+              href="https://pancakeswap.finance/swap?outputCurrency=0xB3eF4bc63a0Ec7889737d9653A12C7F42EdaE09E"
               className="btn btnOutline"
             >
               BUY $DUALIS
@@ -221,33 +221,7 @@ export default function PlatformHead() {
               </div>
               <div className="col-md-3 currentStat">
                 <h3>{bbtian ? bbtian : 0} </h3>
-                <span>$DUALISians</span>
-              </div>
-            </div>
-            <div
-              className="disclaimer"
-              style={
-                window.location.pathname.includes("upcoming") === true
-                  ? { display: "true" }
-                  : { display: "none" }
-              }
-            >
-              <div
-                className="container-fluid text-start overflow-hidden position-relative marquee"
-                style={{
-                  backgroundColor: "#2A2C34",
-                  color: "#b4b7bd",
-                  height: "24px",
-                }}
-              >
-                <p>
-                  <b>Disclaimer</b>: Due to unavailability of detailed
-                  information on upcoming projects, BoobyTrap Team is unable to
-                  provide Trap Points (Expert Opinion) at the moment. Trap
-                  points will be updated in due course after launch. DYOR and
-                  exercise caution while investing in any Private/Presale in
-                  such projects.
-                </p>
+                <span>$DUALIS Staked</span>
               </div>
             </div>
           </div>

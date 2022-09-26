@@ -8,12 +8,12 @@ export default function Defiloss() {
             <div className="defi-main px-0 position-relative">
                 <h2>In the past year, the DeFi world has seen over $12 billion in fraud.</h2>
                 <p>Scammers are out there planning new and innovative ways to commit frauds and rob millions of people of their hard earned income. Not everyone is expert at identifying potential Rugpulls and Honeypots and most novice investors fall in the trap of these scams. $DUALIS is building a Booby-Trap for such scammers by calling them out at the earliest on our “Dualis Finance” Dashboard.</p>
-                <button className="btn btnOutline dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Request Listing</button>
+                {/* <button className="btn btnOutline dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Request Listing</button>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a className="dropdown-item" target="_blank" rel="noreferrer" href="https://bit.ly/34hqxDY">Service Providers</a></li>
                     <li><a className="dropdown-item" target="_blank" rel="noreferrer" href="https://bit.ly/3g6UY2b">Upcoming Projects</a></li>
                     <li><a className="dropdown-item" target="_blank" rel="noreferrer" href="https://bit.ly/3HgUhiJ">Ongoing Projects</a></li>
-                </ul>
+                </ul> */}
             </div>
             <div className="container-fluid secondary-cont px-0 pt-0" style={{ display: "flex", columnGap: "40px" }}>
                 <div className="col mt-4">

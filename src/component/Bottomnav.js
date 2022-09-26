@@ -46,16 +46,16 @@ export default function Bottomnav() {
           <button className="btn">
             <Link
               id="mob-link"
-              to="/safehaven"
+              to="/staking"
               // to={
               //   BBTLimit && BBTBal >= BBTLimit.minBal
-              //     ? `/safehaven`
+              //     ? `/staking`
               //     : `/ineligible`
               // }
             >
               <img src={safedefi} alt="" />
               <br />
-              Safe Haven
+              Staking
             </Link>
           </button>
           <button className="btn">
@@ -67,14 +67,14 @@ export default function Bottomnav() {
           </button>
           <button className="btn">
             <a
-              href="https://drive.google.com/uc?id=1PbT6ef7QUcQM6IA3yfFga9hdTDpf7hua"
+              href="../whitepaper/BBT _TrapSheet_V3.pdf"
               id="mob-link"
               target="_blank"
               rel="noreferrer"
             >
               <img src={trapsheet} alt="" />
               <br />
-              Trapsheet
+              Litepaper
             </a>
           </button>
         </div>

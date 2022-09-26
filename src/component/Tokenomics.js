@@ -10,7 +10,7 @@ export default function Tokenomics() {
             </div>
             <div className="col-md-3">
                 <h2>3%</h2>
-                <p>Burned</p>    
+                <p>Burned</p>
             </div>
             <div className="col-md-3">
                 <h2>7%</h2>
