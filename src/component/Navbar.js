@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../images/logo.png"
+import litepaper from "../whitepaper/BBT _TrapSheet_V3.pdf"
 import { Link } from 'react-router-dom'
 import { FaTelegramPlane, FaTwitter } from "react-icons/fa";
 
@@ -25,11 +26,11 @@ export default function Navbar() {
                                 <a className="nav-link" href="#roadmap-cont">Roadmap</a>
                             </li>
                             <li className="nav-item">
-                                <a href="../whitepaper/BBT _TrapSheet_V3.pdf" target="_blank" rel="noreferrer" className="nav-link">Litepapaer</a>
+                                <a href={litepaper} target="_blank" rel="noreferrer" className="nav-link">Litepaper</a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to="/docs">FAQs</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <a className="nav-link" href="#contact-cont">Contact Us</a>
                             </li>

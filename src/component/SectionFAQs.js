@@ -25,7 +25,7 @@ export default function SectionFAQs() {
               aria-labelledby="flush-headingOne"
               data-bs-parent="#accordionFlushExample"
             >
-              <div className="accordion-body">
+              <div className="accordion-body text-secondary">
                 <p>Our BEP-20 Smart Contract is as follow :</p>
                 <br />
                 <b>0x609b88f5a4aBB7A55bA0c6d255C3F1b1bC7A4D76</b>
@@ -53,7 +53,7 @@ export default function SectionFAQs() {
               aria-labelledby="flush-headingTwo"
               data-bs-parent="#accordionFlushExample"
             >
-              <div className="accordion-body">
+              <div className="accordion-body text-secondary">
                 We have already released our first utility Safe Haven. Some
                 exciting utilities to be released in the near future, we will
                 start with Escrow payment services for the service providers in
@@ -62,7 +62,6 @@ export default function SectionFAQs() {
               </div>
             </div>
           </div>
-        </div>
         <div className="accordion-item">
           <h2 className="accordion-header" id="flush-headingThree">
             <button
@@ -82,7 +81,7 @@ export default function SectionFAQs() {
             aria-labelledby="flush-headingThree"
             data-bs-parent="#accordionFlushExample"
           >
-            <div className="accordion-body">
+            <div className="accordion-body text-secondary">
               'Safe Haven' will list all highly rated Devs, their projects,
               Service providers, Influencers and Promoters who have delivered
               well in the past. One place to find most promising projects and
@@ -111,7 +110,7 @@ export default function SectionFAQs() {
             aria-labelledby="flush-headingFour"
             data-bs-parent="#accordionFlushExample"
           >
-            <div className="accordion-body">
+            <div className="accordion-body text-secondary">
               We will be developing an ecosystem by creating a platform where
               only legit devs, influencers/promoters and service providers will
               be listed. They will be listed on the platform after KYC and
@@ -122,6 +121,7 @@ export default function SectionFAQs() {
               basis of the ratings which will keep them away from the scams.
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>

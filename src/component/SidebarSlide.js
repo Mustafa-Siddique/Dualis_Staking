@@ -53,7 +53,7 @@ export default function SidebarSlide(props) {
           <MenuItem active={window.location.href.includes("dualisquare") ? true : false} icon={<GiPayMoney fontSize={20} />}><a id="pro-sidebar-link" href="/" target="_blank" rel="noopener noreferrer">DUALIS SQUARE</a></MenuItem>
           {/* <MenuItem icon={<BsFillFileEarmarkLockFill fontSize={20} />}><Link id="pro-sidebar-link" to="/comingsoon">INSURANCE DAO</Link></MenuItem>
           <MenuItem icon={<MdOutlineCastForEducation fontSize={20} />}><Link id="pro-sidebar-link" to="/comingsoon">IEP</Link></MenuItem> */}
-          <MenuItem active={window.location.pathname.includes("/faqs") ? true : false} icon={<HiOutlineDocumentText fontSize={20} />}><Link id="pro-sidebar-link" to="/">DOCS</Link></MenuItem>
+          <MenuItem active={window.location.pathname.includes("/faqs") ? true : false} icon={<HiOutlineDocumentText fontSize={20} />}><a id="pro-sidebar-link" href="https://docs.dualis.finance" target="_blank" rel="noopener noreferrer">DOCS</a></MenuItem>
         </Menu>
         {/* <Menu iconShape="circle">
           <SubMenu
@@ -69,9 +69,9 @@ export default function SidebarSlide(props) {
       <SidebarFooter style={isCollapse === false ? {display:"block"} : {display:"none"}}>
         <div className="pro-sidebar-social mt-1">
           <a href="https://twitter.com/DUALISFINANCE" target = "_blank" rel="noreferrer"><FaTwitter/></a>
-          <a href="http://tiktok.com/@boobytrapbsc" target = "_blank" rel="noreferrer"><FaTiktok/></a>
+          {/* <a href="http://tiktok.com/@boobytrapbsc" target = "_blank" rel="noreferrer"><FaTiktok/></a> */}
           <a href="https://t.me/DUALISFINANCE" target = "_blank" rel="noreferrer"><FaTelegramPlane/></a>
-          <a href="https://instagram.com/boobytrap_bsc" target = "_blank" rel="noreferrer"><FaInstagram/></a>
+          {/* <a href="https://instagram.com/boobytrap_bsc" target = "_blank" rel="noreferrer"><FaInstagram/></a> */}
         </div>
         <p className="fs-6 text-center mt-2 mb-0">E-mail: <a href="mailto:contact@dualis.finance" target = "_blank" rel="noreferrer">contact@dualis.finance</a></p>
         <p className="fs-6 text-center mb-0">&copy; Dualis Finance All Rights Reserved</p>

@@ -144,8 +144,6 @@ export default function PlatformHead() {
 
   return (
     <div>
-      <div className="vidOverlay"></div>
-      <video id="video" src={video} autoplay='' muted loop></video>
       <div className="position-relative">
         <div className="container-fluid">
           <div className="topBar d-flex flex-row-reverse pt-3">

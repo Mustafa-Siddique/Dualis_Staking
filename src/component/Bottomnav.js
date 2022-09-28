@@ -4,7 +4,7 @@ import buybbt from "../images/square-vice-versa-alt.svg";
 import trapsheet from "../images/sim.svg";
 import safedefi from "../images/database.svg";
 import stop from "../images/boobystop.svg";
-import trapsheetpdf from "../whitepaper/BBT _TrapSheet_V3.pdf";
+import litepaper from "../whitepaper/BBT _TrapSheet_V3.pdf"
 import { Link } from "react-router-dom";
 import client from "../client";
 import { getBBTBalance } from "../Web3_connection/ContractMethods";
@@ -59,15 +59,15 @@ export default function Bottomnav() {
             </Link>
           </button>
           <button className="btn">
-            <Link id="mob-link" to="/boobytrap">
+            <Link id="mob-link" to="/">
               <img src={stop} style={{ height: "30px" }} alt="" />
               <br />
-              BoobyTrap
+              DualiSquare
             </Link>
           </button>
           <button className="btn">
             <a
-              href="../whitepaper/BBT _TrapSheet_V3.pdf"
+              href={litepaper}
               id="mob-link"
               target="_blank"
               rel="noreferrer"

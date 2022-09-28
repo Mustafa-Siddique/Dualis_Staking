@@ -19,7 +19,7 @@ export default function Vetted() {
             </div>
         </div>
         <div style={{width:"fit-content", margin:"auto"}}>
-            <Link to="/docs" className="btn btnYellow">FAQs</Link>
+            <a href="https://docs.dualis.finance" className="btn btnYellow">DOCs</a>
         </div>
     </div>
   )
